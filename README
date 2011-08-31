@@ -1,0 +1,109 @@
+                        Frosty
+        _________________________________________
+        Frosty is licensed under GNU GPL.
+        Please be sure to read the final words section.
+        Best viewed in notepad with word wrap off.
+
+1 Introduction________________________________________________
+
+Frosty is a piece of software that was invisioned from about
+5 minutes of thought. I was simply curious if it was possible
+to create a web application that could be used to spam people
+using sms messaging. And thus Frosty was born.
+
+2a Usage______________________________________________________
+
+While I do officially condone the use of this software as a
+spamming tool. I do realize that a large portion of those who
+read this will be using it for that purpose. I ask that you
+use common sense when using this software. That said here are
+some quick hints for usage:
+
+Legacy - This will use any email account that can be accessed
+	using the SMTP server: smtp.gmail.com on the port 465
+	this version will send an email to a "email-to-text"
+	service provided by most cell phone carriers. Sadly,
+	this means it will display your email not a phone
+	number. Legacy's use is not recommended.
+
+Frosty - This is a revised version of the Legacy Frosty which
+	uses any google voice username and password that has
+	been properly set up to send sms messages. Expansive
+	testing has not been conducted however small scale
+	tests have been performed. I only have 1 google voice
+	after all.
+
+USE THE - Since I don't know what is obvious about the software
+TEST	and what needs explaining when in doubt use the test
+BUTTON	button. It will display a text-ual output of what would
+	have happened if you actually decided to spam someone. 
+
+2b Setup/Requirements_________________________________________
+
+When developing this software I used a standared LAMP setup
+and used phpmyadmin for quick mysql editing.
+
+WHAT YOU WILL NEED:
+	-A google mail account AND/OR A google voice account
+	-The ability to use SMTP connections for legacy support
+		-Which probably means a local WAMP/MAMP/LAMP
+		setup.
+	-A PHP interpreter
+	-A MySQL database, with a username and password that
+		can edit the database.
+HOW TO SETUP:
+	-drop the filees in the smap2X folder into your server
+	-load the index.php in your webbrowser.
+	-input your information
+	-Enjoy your Frosty!
+
+
+
+3 Contact information_________________________________________
+
+E-mail:	oddsam91+frosty@gmail.com
+Web:    http://blog.gascomics.com
+
+If you have confusion feel free to email me with questions,
+comments, or suggestions.
+
+
+4 Disclaimer__________________________________________________
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as 
+published by the Free Software Foundation; either version 2 of 
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be
+useful,but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with this program; if not, write to the Free
+Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+MA  02111-1307  USA
+
+See the GNU General Public License details in COPYING.
+
+5 Final Words_________________________________________________
+
+Yes I did copy from the DeSmuME readme. I did not ask. If you
+wish me to create my own readme from scrath please contact me
+with your complaint. This software is to be used at your own
+risk. I distribute this software with the intent of showing
+how easy it was to create a working sms spam messaging app. I
+however do not wish anyone to use this to actually spam other
+people with this software. However I do ask, if you do use
+this as such a tool, that you have a good reason harrass the
+reciever of your messages. Also as my final word, if you use
+this software as a spamming device you most likely WILL be
+violating every line of Google's Terms of Service. So please
+use this at your own risk. I have warned you!
+
+
+5 tl;dr_______________________________________________________
+
+Be responsible for your own actions. And think before you use
+this software.
